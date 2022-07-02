@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Lista de tarefas</title>
+</head>
+
+<body>
+    <h1>Lista de Tarefas</h1>
+
+    <header>
+        <input id='input_tarefa' type="text" placeholder="Digite sua Tarefa" value="teste adicionar">
+        <button onclick="addTarefa()" id='btn-add' class="add">Adicionar</button>
+    </header>
+
+    <main id="area_lista">
+        <div class="item">
+            <div class="item_icone">
+                <i class="mdi mdi-circle-outline" ></i>
+            </div>
+            
+            <div class="item_nome">
+                Teste e Tarefa
+                
+            </div>
+
+            <div class="item_botao">
+                <button class="delete">
+                     <i class="mdi mdi-delete"></i> 
+                     Deletar
+                    </button>
+            </div>
+
+        </div>
+        <div class="item clicado">
+            <div class="item_icone">
+                <i class="mdi mdi-check-circle" ></i>
+            </div>
+            
+            <div class="item_nome">
+                Teste e Tarefa
+                
+            </div>
+
+            <div class="item_botao">
+                <button class="delete">
+                     <i class="mdi mdi-delete"></i> 
+                     Deletar
+                    </button>
+            </div>
+
+        </div>
+    </main>
+
+
+    
+    <script src="/js/index.js"></script>
+</body>
+</html>
